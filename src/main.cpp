@@ -75,8 +75,6 @@ IOTHUB_DEVICE_CLIENT_LL_HANDLE device_ll_handle;
 static int callbackCounter;
 int receiveContext = 0;
 
-/* -- get_BME_Data declaration--
- */
 
 /* -- receive_message_callback --
  * Callback method which executes upon receipt of a message originating from the IoT Hub in the cloud. 
