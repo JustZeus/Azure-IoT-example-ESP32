@@ -1,3 +1,4 @@
+// Copyright (c) Microsoft. All rights reserved.
 #include <Arduino.h>
 #include <AzureIoTHub.h>
 #include <stdio.h>
@@ -74,7 +75,6 @@ IOTHUB_DEVICE_CLIENT_LL_HANDLE device_ll_handle;
 
 static int callbackCounter;
 int receiveContext = 0;
-
 
 /* -- receive_message_callback --
  * Callback method which executes upon receipt of a message originating from the IoT Hub in the cloud. 
