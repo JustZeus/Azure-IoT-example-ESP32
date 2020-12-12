@@ -55,7 +55,7 @@ Example circuit assemble:
 ![Texto alternativo](https://rzstorage.blob.core.windows.net/video/202012111645572654284723398.jpg)
 
 ## Deployment 📦
-As an example of use, a Azure IoT central app was provided to observe the variables graphically <br>
+As an example of use, an Azure IoT central app was deployed to monitor the variables graphically <br>
 
 
 
