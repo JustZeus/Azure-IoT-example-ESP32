@@ -66,7 +66,6 @@ static bool g_continueRunning = true; //This variable can be used to stop the de
 static size_t g_message_count_send_confirmations = 0;
 IOTHUB_MESSAGE_HANDLE message_handle;
 size_t messages_sent = 0;
-#define MESSAGE_COUNT 5 // determines the number of times the device tries to send a message to the IoT Hub in the cloud.
 const char *telemetry_msg = "{\"deviceId\":\"%s\", \"LightSetting\":\"%s\", \"messageId\":%d, \"Temperature\":%f, \"Humidity\":%f, \"Altitude\":%f, \"Pressure\":%f, \"Light\":%f}";
 const char *quit_msg = "quit";
 const char *exit_msg = "exit";
